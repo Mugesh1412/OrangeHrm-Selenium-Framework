@@ -17,6 +17,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -42,10 +43,13 @@ public class baseClass {
 
 	}
 
+	
 	@BeforeClass
-	public void openBroswer() throws IOException {
+	@Parameters("browser")
+	public void openBroswer(String broswer) throws IOException {
 
-		String broswerName = getValues().getProperty("Broswer");
+		//String broswerName = getValues().getProperty("Broswer");
+		String broswerName=broswer;
 
 		if(broswerName.equals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
@@ -97,7 +101,7 @@ public class baseClass {
 
 	}
 
-
+           
 
 
 
