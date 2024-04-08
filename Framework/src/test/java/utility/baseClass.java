@@ -45,11 +45,11 @@ public class baseClass {
 
 	
 	@BeforeClass
-	@Parameters("browser")
-	public void openBroswer(String broswer) throws IOException {
+	//@Parameters("browser")
+	public void openBroswer() throws IOException {
 
-		//String broswerName = getValues().getProperty("Broswer");
-		String broswerName=broswer;
+		String broswerName = getValues().getProperty("Broswer");
+		//String broswerName=broswer;
 
 		if(broswerName.equals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
