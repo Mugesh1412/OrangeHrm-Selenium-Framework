@@ -6,6 +6,18 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.orangeHrm_TestScripts.myTimeSheetModule">
+        <methods>
+          <include name="validateCalenderCloseBtn"/>
+          <include name="closeBroswer"/>
+          <include name="validateMytimeSheetPage"/>
+          <include name="validateDate"/>
+          <include name="validateCalanderTodayBtn"/>
+          <include name="setup"/>
+          <include name="openBroswer"/>
+          <include name="validateCalanderBtn"/>
+        </methods>
+      </class> <!-- com.orangeHrm_TestScripts.myTimeSheetModule -->
       <class name="com.orangeHrm_TestScripts.dashbordModule">
         <methods>
           <include name="validateMytimeSheetLogo"/>
@@ -15,18 +27,6 @@
           <include name="openBroswer"/>
         </methods>
       </class> <!-- com.orangeHrm_TestScripts.dashbordModule -->
-      <class name="com.orangeHrm_TestScripts.myTimeSheetModule">
-        <methods>
-          <include name="validateCalenderCloseBtn"/>
-          <include name="closeBroswer"/>
-          <include name="validateMytimeSheetPage"/>
-          <include name="validateDate"/>
-          <include name="validateCalanderTodayBtn"/>
-          <include name="setup"/>
-          <include name="validateCalanderBtn"/>
-          <include name="openBroswer"/>
-        </methods>
-      </class> <!-- com.orangeHrm_TestScripts.myTimeSheetModule -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -9,23 +9,23 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.Status;
 
 public class Listeners extends baseClass implements ITestListener {
-
+               
+	       
 	
-	
-	
+	                 
 	@Override
 	public void onTestStart(ITestResult result) {
 		test=extent.createTest(result.getMethod().getMethodName());
 		test.log(Status.INFO, "Test case started execution: " +result.getMethod().getMethodName());
 
 	}
-	
-	
+	         
+	                                                                   
 
 	public void reportLog(String displaymessage) {    
 		test.log(Status.INFO, "ASSERT EQUALS PASSED : "+displaymessage);//For extentTest HTML report
 
-	}
+	}                                                                
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
@@ -67,5 +67,5 @@ public class Listeners extends baseClass implements ITestListener {
 		extent.flush();
 		
 	}
-
-}
+                                                                         
+}      

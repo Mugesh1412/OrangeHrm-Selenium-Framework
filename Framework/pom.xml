@@ -4,7 +4,7 @@
   <artifactId>DemoFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
+                                                                                                    
   
   <dependencies>
 	
@@ -45,7 +45,13 @@
     <version>5.1.1</version>
 </dependency>
 
-                                 
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.9.0</version>
+</dependency>
+                         
                                     
   </dependencies>
   
@@ -63,21 +69,20 @@
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
           
-          <systemPropertyVariables>
+         <!-- <systemPropertyVariables>
 			
 			<Execution>${browser}</Execution>
-			
-		  </systemPropertyVariables>
+			                                                                             
+		  </systemPropertyVariables>-->
         </configuration>
       </plugin>
-   
-</plugins>
+          
+</plugins> 
 	
-  </build>
-    
-  
-  
-  
+  </build>                         
+      
+                                        
+                          
   
   
 </project>

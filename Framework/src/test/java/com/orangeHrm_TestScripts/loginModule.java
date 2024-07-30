@@ -29,12 +29,13 @@ public class loginModule extends baseClass {
 		app.loginIntoApp(getValues().getProperty("wrongUN"), getValues().getProperty("wrongPw"));
 		String result = app.err();
 		String expected = "Invalid credentials";
-		assertEquals(result, expected);
+		assertEquals(result, expected);      
 		
-	}
-	
-	
-}       
+	}                                                                 
+	                                                                       
+                                                                                                                                                                                                                                                               	                                                                                                                               
+	                            
+}         
                                                    
                     
                                                                                                     

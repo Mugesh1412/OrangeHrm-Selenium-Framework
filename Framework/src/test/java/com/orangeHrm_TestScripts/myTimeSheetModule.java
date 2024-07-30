@@ -28,11 +28,11 @@ public class myTimeSheetModule extends baseClass{
 		String actual = my.verifyMyTimeSheetPage();
 		String expected = "My Timesheet";
 		assertEquals(actual, expected);
-		Thread.sleep(2000);
-		app.logout();
+		Thread.sleep(2000);               
+		app.logout();     
 		
-
-	}
+               
+	}   
 
 	@Test(priority = 2)
 	public void validateCalanderBtn() throws IOException, InterruptedException {
@@ -85,7 +85,7 @@ public class myTimeSheetModule extends baseClass{
 		test.addScreenCaptureFromPath(sd);
 		
 		
-	}
-       
+	}  
+                                             
                                
 }

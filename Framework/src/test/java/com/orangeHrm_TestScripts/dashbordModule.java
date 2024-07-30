@@ -20,10 +20,10 @@ public class dashbordModule extends baseClass{
 		app.loginIntoApp(getValues().getProperty("UserName"), getValues().getProperty("Password"));
 		Dashboard bord = new Dashboard(driver);
 		String result = bord.verifyDashbordPage();
-		String expected = "Dashboard";
-		assertEquals(result, expected);
-		app.logout();
-	}
+		String expected = "Dashboard";         
+		assertEquals(result, expected);  
+		app.logout();                                                        
+	}     
 	
 	@Test(priority = 2)
 	public void validateMytimeSheetLogo() throws IOException, InterruptedException {
@@ -33,6 +33,7 @@ public class dashbordModule extends baseClass{
 		Boolean result = bord.verifyMytimeSheetLogo();
 		assertTrue(result);
 		app.logout();
-	}
-
-}
+	}                                      
+                    
+}  
+            
