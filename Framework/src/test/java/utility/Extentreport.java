@@ -13,7 +13,7 @@ public class Extentreport extends baseClass {
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("TEST EXECUTED BY","Mugesh");
-		return extent;
+		return extent;                                                                                                                                                                                                                                                                                                                                                                                        
 
 
 

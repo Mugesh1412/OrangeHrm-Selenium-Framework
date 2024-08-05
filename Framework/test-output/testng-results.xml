@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-17T18:37:48 IST" name="Suite" finished-at="2024-07-17T18:40:18 IST" duration-ms="150111">
+  <suite started-at="2024-07-30T15:12:15 IST" name="Suite" finished-at="2024-07-30T15:14:08 IST" duration-ms="112392">
     <groups>
     </groups>
-    <test started-at="2024-07-17T18:37:48 IST" name="Test" finished-at="2024-07-17T18:40:18 IST" duration-ms="150111">
+    <test started-at="2024-07-30T15:12:15 IST" name="Test" finished-at="2024-07-30T15:14:08 IST" duration-ms="112392">
       <class name="com.orangeHrm_TestScripts.loginModule">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-17T18:37:48 IST" name="setup" finished-at="2024-07-17T18:37:48 IST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-30T15:12:15 IST" name="setup" finished-at="2024-07-30T15:12:15 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="openBroswer()[pri:0, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-17T18:37:48 IST" name="openBroswer" finished-at="2024-07-17T18:37:58 IST" duration-ms="10112" status="PASS">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-30T15:12:15 IST" name="openBroswer" finished-at="2024-07-30T15:12:38 IST" duration-ms="22467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method signature="loginWithVaildCredentials()[pri:1, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-17T18:37:58 IST" name="loginWithVaildCredentials" finished-at="2024-07-17T18:38:04 IST" duration-ms="5294" status="PASS">
+        <test-method signature="loginWithVaildCredentials()[pri:1, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-30T15:12:38 IST" name="loginWithVaildCredentials" finished-at="2024-07-30T15:12:43 IST" duration-ms="5277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithVaildCredentials -->
-        <test-method signature="loginWithInVaildCredentials()[pri:2, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-17T18:38:04 IST" name="loginWithInVaildCredentials" finished-at="2024-07-17T18:38:07 IST" duration-ms="3420" status="PASS">
+        <test-method signature="loginWithInVaildCredentials()[pri:2, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-30T15:12:43 IST" name="loginWithInVaildCredentials" finished-at="2024-07-30T15:12:47 IST" duration-ms="3643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInVaildCredentials -->
-        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-17T18:38:07 IST" name="closeBroswer" finished-at="2024-07-17T18:38:07 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:com.orangeHrm_TestScripts.loginModule@4c402120]" started-at="2024-07-30T15:12:47 IST" name="closeBroswer" finished-at="2024-07-30T15:12:47 IST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBroswer -->
       </class> <!-- com.orangeHrm_TestScripts.loginModule -->
       <class name="com.orangeHrm_TestScripts.myTimeSheetModule">
-        <test-method is-config="true" signature="openBroswer()[pri:0, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-17T18:38:26 IST" name="openBroswer" finished-at="2024-07-17T18:38:49 IST" duration-ms="23227" status="PASS">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-30T15:13:06 IST" name="openBroswer" finished-at="2024-07-30T15:13:16 IST" duration-ms="9914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method signature="validateMytimeSheetPage()[pri:1, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-17T18:38:49 IST" name="validateMytimeSheetPage" finished-at="2024-07-17T18:39:01 IST" duration-ms="12475" status="PASS">
+        <test-method signature="validateMytimeSheetPage()[pri:1, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-30T15:13:16 IST" name="validateMytimeSheetPage" finished-at="2024-07-30T15:13:25 IST" duration-ms="8385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMytimeSheetPage -->
-        <test-method signature="validateCalanderBtn()[pri:2, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-17T18:39:01 IST" name="validateCalanderBtn" finished-at="2024-07-17T18:39:49 IST" duration-ms="47767" status="PASS">
+        <test-method signature="validateCalanderBtn()[pri:2, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-30T15:13:25 IST" name="validateCalanderBtn" finished-at="2024-07-30T15:13:39 IST" duration-ms="14299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCalanderBtn -->
-        <test-method signature="validateCalanderTodayBtn()[pri:3, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-17T18:39:49 IST" name="validateCalanderTodayBtn" finished-at="2024-07-17T18:40:01 IST" duration-ms="11978" status="PASS">
+        <test-method signature="validateCalanderTodayBtn()[pri:3, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-30T15:13:39 IST" name="validateCalanderTodayBtn" finished-at="2024-07-30T15:13:51 IST" duration-ms="11807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCalanderTodayBtn -->
-        <test-method signature="validateCalenderCloseBtn()[pri:4, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-17T18:40:01 IST" name="validateCalenderCloseBtn" finished-at="2024-07-17T18:40:11 IST" duration-ms="10157" status="PASS">
+        <test-method signature="validateCalenderCloseBtn()[pri:4, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-30T15:13:51 IST" name="validateCalenderCloseBtn" finished-at="2024-07-30T15:14:01 IST" duration-ms="9845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCalenderCloseBtn -->
-        <test-method signature="validateDate()[pri:5, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-17T18:40:11 IST" name="validateDate" finished-at="2024-07-17T18:40:18 IST" duration-ms="6807" status="PASS">
+        <test-method signature="validateDate()[pri:5, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-30T15:14:01 IST" name="validateDate" finished-at="2024-07-30T15:14:08 IST" duration-ms="6907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDate -->
-        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-17T18:40:18 IST" name="closeBroswer" finished-at="2024-07-17T18:40:18 IST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:com.orangeHrm_TestScripts.myTimeSheetModule@6150c3ec]" started-at="2024-07-30T15:14:08 IST" name="closeBroswer" finished-at="2024-07-30T15:14:08 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBroswer -->
       </class> <!-- com.orangeHrm_TestScripts.myTimeSheetModule -->
       <class name="com.orangeHrm_TestScripts.dashbordModule">
-        <test-method is-config="true" signature="openBroswer()[pri:0, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-17T18:38:07 IST" name="openBroswer" finished-at="2024-07-17T18:38:16 IST" duration-ms="8719" status="PASS">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-30T15:12:47 IST" name="openBroswer" finished-at="2024-07-30T15:12:56 IST" duration-ms="9413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method signature="validateDashbordPage()[pri:1, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-17T18:38:16 IST" name="validateDashbordPage" finished-at="2024-07-17T18:38:21 IST" duration-ms="4890" status="PASS">
+        <test-method signature="validateDashbordPage()[pri:1, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-30T15:12:56 IST" name="validateDashbordPage" finished-at="2024-07-30T15:13:01 IST" duration-ms="5091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDashbordPage -->
-        <test-method signature="validateMytimeSheetLogo()[pri:2, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-17T18:38:21 IST" name="validateMytimeSheetLogo" finished-at="2024-07-17T18:38:25 IST" duration-ms="4725" status="PASS">
+        <test-method signature="validateMytimeSheetLogo()[pri:2, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-30T15:13:01 IST" name="validateMytimeSheetLogo" finished-at="2024-07-30T15:13:06 IST" duration-ms="4870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMytimeSheetLogo -->
-        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-17T18:38:25 IST" name="closeBroswer" finished-at="2024-07-17T18:38:26 IST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:com.orangeHrm_TestScripts.dashbordModule@1573f9fc]" started-at="2024-07-30T15:13:06 IST" name="closeBroswer" finished-at="2024-07-30T15:13:06 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBroswer -->
